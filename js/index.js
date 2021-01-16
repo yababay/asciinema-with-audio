@@ -6,7 +6,7 @@ asciiPlayer.addEventListener("canplaythrough", ()=> {
     controlBarOrig.parentNode.appendChild(controlBarNew)
     controlBarOrig.style.display = "none"
     controlBarNew.classList.add("control-bar")
-    controlBarNew.innerHTML = '<audio src="media/index.mp3" controls loop preload="auto"></audio>'
+    controlBarNew.innerHTML = '<audio src="media/index.mp3" controls preload="auto"></audio>'
     const audioPlayer = document.querySelector("audio")
     asciiPlayer.addEventListener("play",  () => audioPlayer.play())
     asciiPlayer.addEventListener("pause", () => audioPlayer.pause())
