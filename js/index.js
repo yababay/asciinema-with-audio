@@ -4,7 +4,7 @@ const mediaSrc = locHash ? locHash.substring(1) : "index"
 
 console.log(mediaSrc)
 
-asciiHolder.innerHTML = `<asciinema-player src="media/${mediaSrc}.cast" cols="100" rows="26" id="asciinema" font-size=".8rem" preload="auto" speed="2.8"></asciinema-player>`
+asciiHolder.innerHTML = `<asciinema-player src="media/${mediaSrc}.cast" cols="100" rows="26" id="asciinema" font-size=".8rem" preload="auto"></asciinema-player>`
 
 const asciiPlayer = asciiHolder.querySelector("asciinema-player")
 
