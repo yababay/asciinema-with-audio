@@ -1,4 +1,4 @@
-const asciiHolder = document.querySelector("section")
+const asciiHolder = document.querySelector("#player-holder")
 const locHash = window.location.search
 const mediaSrc = locHash ? locHash.substring(1) : "index"
 
